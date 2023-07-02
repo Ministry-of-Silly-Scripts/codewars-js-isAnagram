@@ -18,4 +18,8 @@ describe('isAnagram', () => {
   test("it should return false for inputs 'ab' and 'ac'", () => {
     expect(isAnagram('ab', 'ac')).toBe(false);
   });
+
+  test("it should return true for inputs 'ab' and 'ba'", () => {
+    expect(isAnagram('ab', 'ba')).toBe(true);
+  });
 })
