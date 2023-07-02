@@ -22,4 +22,8 @@ describe('isAnagram', () => {
   test("it should return true for inputs 'ab' and 'ba'", () => {
     expect(isAnagram('ab', 'ba')).toBe(true);
   });
+
+  test("it should return true for inputs 'Buckethead' and 'DeathCubek'", () => {
+    expect(isAnagram('Buckethead', 'DeathCubek')).toBe(true);
+  });
 })
