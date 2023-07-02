@@ -14,6 +14,14 @@ Complete the function to return `true` if the two arguments given are anagrams o
 
 - `"Buckethead"` is an anagram of `"DeathCubeK"`
 
+## Domain description:
+
+- input: two words (strings)
+- output: an indication if the two words are an anagram or not (boolean: true / false)
+- rules:
+    - anagram: rearranging of the letters of word to produce a new word 
+    - inputs are case insensitive
+    - number of letters of both words must be the same
 
 ---
 
