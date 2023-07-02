@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const isAnagram = () => true;
 
 module.exports = {
-  placeholder,
+  isAnagram,
 };

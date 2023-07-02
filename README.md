@@ -1,8 +1,8 @@
-# XXXXX kata 
+# Anagram Detectionkata 
 
-XXXXX kata performed by to practice TDD for the Jaguars training at IBM
+Anagram Detection kata performed by to practice TDD for the Jaguars training at IBM
 
-[XXXXXX on CodeWars](https://www.codewars.com/kata/)
+[Anagram Detection on CodeWars](https://www.codewars.com/kata/529eef7a9194e0cbc1000255)
 
 ## Prerequisites
 
