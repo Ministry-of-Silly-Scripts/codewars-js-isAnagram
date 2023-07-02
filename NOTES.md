@@ -38,4 +38,6 @@ initial setup
     - update NOTES ✅ 
     - update package.json ✅
     - update code/test files ✅
-domain discussion 
+domain discussion ✅
+perform the 'canary' test just to check if the structure works ✅
+it should return false for inputs 'a' and 'b' ✅

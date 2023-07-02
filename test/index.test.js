@@ -1,5 +1,13 @@
 const { isAnagram } = require("../src/index");
 
-test("test isAnagram", () => {
-  expect(isAnagram(0)).toBe(true);
+describe('the isAnagram canary spec', () => {
+  it('shows the infrastructure works', () => {
+    expect(true).toBe(true);
+  });
 });
+
+describe('isAnagram', () => {
+  test("it should return false for inputs 'a' and 'b'", () => {
+    expect(isAnagram('a', 'b')).toBe(false);
+  });
+})
