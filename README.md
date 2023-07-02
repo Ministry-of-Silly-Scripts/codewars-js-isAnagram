@@ -1,4 +1,4 @@
-# Anagram Detectionkata 
+# Anagram Detection kata 
 
 Anagram Detection kata performed by to practice TDD for the Jaguars training at IBM
 
