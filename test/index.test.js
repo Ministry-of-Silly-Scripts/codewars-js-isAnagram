@@ -1,4 +1,4 @@
-const { isAnagram } = require("../src/index");
+const { isAnagram, lowerCaseAndSort } = require("../src/index");
 
 describe('the isAnagram canary spec', () => {
   it('shows the infrastructure works', () => {
@@ -25,5 +25,11 @@ describe('isAnagram', () => {
 
   test("it should return true for inputs 'Buckethead' and 'DeathCubek'", () => {
     expect(isAnagram('Buckethead', 'DeathCubek')).toBe(true);
+  });
+})
+
+describe('lowerCaseAndSort', () => {
+  test("it should return abcdeehktu for inputs 'Buckethead'", () => {
+    expect(lowerCaseAndSort('Buckethead')).toBe('abcdeehktu');
   });
 })

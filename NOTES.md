@@ -47,3 +47,6 @@ it should return true for inputs 'a' and 'a' ✅
 it should return false for inputs 'ab' and 'ac' ✅
 it should return true for inputs 'ab' and 'ba' ✅
 it should return true for inputs 'Buckethead' and 'DeathCubeK' ✅
+refactor ✅
+test new function lowerCaseAndSort:
+    - it should return 'abcdeehktu' for input 'Buckethead' ✅
